@@ -13,6 +13,5 @@ public class ArrayListdemo
 		list.add("hashmap");
 		
 		System.out.println(list);
-		
 	}	
 }
