@@ -14,18 +14,23 @@ public class linklist1 {
 		ll.add("kavan");
 		ll.add("vijay");
 		ll.add(2, "anish");
+		ll.remove(1);
+		ll.add("null");
+		ll.add("viraj");
+		ll.add(4,"nihal");
+	
 
 		System.out.println(
 			"Initial LinkedList " + ll);
 
-		ll.remove(1);
-
-		System.out.println(
-			"After the Index Removal " + ll);
-
-		ll.remove("kavan");
-
-		System.out.println(
-			"After the Object Removal " + ll);
+//		ll.remove(1);
+//
+//		System.out.println(
+//			"After the Index Removal " + ll);
+//
+//		ll.remove("kavan");
+//
+//		System.out.println(
+//			"After the Object Removal " + ll);
 	}
 }
